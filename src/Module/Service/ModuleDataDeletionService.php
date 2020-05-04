@@ -75,6 +75,7 @@ class ModuleDataDeletionService implements ModuleDataDeletionServiceInterface
             ShopConfigurationSetting::MODULE_TEMPLATES,
             ShopConfigurationSetting::MODULE_VERSIONS,
             'aDisabledModules',
+            ShopConfigurationSetting::ACTIVE_MODULES,
         ];
     }
 }
